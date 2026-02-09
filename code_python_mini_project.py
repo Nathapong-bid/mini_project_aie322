@@ -9,7 +9,7 @@ import joblib
 
 
 # Change filename to whatever you uploaded
-df = pd.read_csv("Dataset_cholesterol.csv")
+df = pd.read_csv("Dataset_calory.csv")
 df["Gender"] = df["Gender"].map({"Male" : 0 , "Female" : 1})
 activity_map = {
     "Sedentary": 1,
